@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
@@ -16,15 +17,22 @@ public class MainMenuController : MonoBehaviour
     [SerializeField]
     private Button quit;
 
-
-    // Update is called once per frame
-    void Update()
+    public void NewGame()
     {
-        
+        Debug.Log("NewGameButton");
+        SceneManager.LoadScene("NewGameScen");
     }
 
-    private void NewGame()
+    public void LoadGame()
     {
-        
+        Debug.Log("Required to implement");
+        //SceneManager.LoadScene("Save"); // Required to implement
+    }
+
+    public void Quit()
+    {
+        Debug.Log("Quit");
+        //Invoke("Application.Quit()", 5f);
+        Application.Quit();
     }
 }

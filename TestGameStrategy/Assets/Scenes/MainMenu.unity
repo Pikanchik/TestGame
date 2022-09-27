@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 245125151}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1372147277}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &245125151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -778,7 +790,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 828990659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1372147277}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &828990659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -900,7 +924,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 881059272}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1372147277}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &881059272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1052,9 +1088,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61cd14679cc85894ebc76e0e17ab53b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  newGame: {fileID: 0}
-  loadGame: {fileID: 0}
-  quit: {fileID: 0}
+  newGame: {fileID: 881059271}
+  loadGame: {fileID: 828990658}
+  quit: {fileID: 245125150}
 --- !u!4 &1372147278
 Transform:
   m_ObjectHideFlags: 0
